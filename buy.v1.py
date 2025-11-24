@@ -351,7 +351,7 @@ all_signal_types = [
 selected_signals = st.multiselect(
     "选择哪些信号需要推送Telegram",
     all_signal_types,
-    default=["📉 新卖出信号"]
+    default=["📈 新买入信号"]
 )
 
 
